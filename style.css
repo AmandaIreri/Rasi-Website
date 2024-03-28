@@ -1,0 +1,83 @@
+body{
+    font-family: 'Poppins';
+    font-size: 22px;
+}
+#intro{
+    background-color: #3E3E3E;
+}
+#intro h5{
+    color: white;
+    text-align: center;
+}
+#container{
+    position: relative;
+}
+.backimage{
+    width: 1800px;
+    height: 700px;
+
+}
+#words{
+    position: absolute;
+}
+#navbar{
+    display: flex;
+    gap: 30%;
+    border: solid 2px;
+    width: 1790px;
+}
+#navbar b{
+}
+#navbar span{
+}
+#rasi{
+
+}
+#home{
+    display: flex;
+    gap: 8%;
+}
+#callicon{
+
+}
+.callicon{
+    height: 27px;
+    width: 27px;
+}
+#elevating b{
+    font-size: 60px;
+}
+#elevating span{
+
+}
+.b1{
+    margin: 0 30%;
+}
+.b2{
+    margin: 0 33%;
+}
+.span1{
+    margin: 0 32%;
+}
+.span2{
+    margin: 0 38%;
+}
+h2{
+    text-align: center;
+}
+#container2{
+    display: flex;
+    gap: 10%;
+    margin: 0 3%;
+}
+.screenprinting{
+    color: rgb(63, 148, 63);
+}
+.bed{
+}
+#cont2 b{
+    font-size: 50px;
+}
+#cont2 span{
+    color: rgb(85, 83, 83);
+}
