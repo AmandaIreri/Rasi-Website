@@ -20,10 +20,15 @@ body{
 #words{
     position: absolute;
 }
+#navbar b{
+    color: white;
+}
+#navbar span{
+    color: white;
+}
 #navbar{
     display: flex;
     gap: 30%;
-    border: solid 2px;
     width: 1790px;
 }
 #navbar b{
@@ -36,9 +41,6 @@ body{
 #home{
     display: flex;
     gap: 8%;
-}
-#callicon{
-
 }
 .callicon{
     height: 27px;
@@ -80,4 +82,111 @@ h2{
 }
 #cont2 span{
     color: rgb(85, 83, 83);
+}
+h1{
+    text-align: center;
+}
+.par1{
+    margin: 0 30%;
+}
+.par2{
+    margin: 0 30%;
+}
+.printing3{
+    height: 300px;
+    width: 400px;
+}
+.printing2{
+    height: 300px;
+    width: 400px;
+}
+#printing{
+    display: flex;
+    gap: 5%;
+    margin: 0 5%;
+}
+.par3{
+    margin: 0 25%;
+    color: rgb(85, 83, 83);
+}
+.par4{
+    margin:0 30%;
+    color: rgb(85, 83, 83);
+}
+.star{
+    width: 30px;
+    height: 30px;
+}
+#rating{
+    display: flex;
+    gap: 5%;
+    margin: 0 5%;
+}
+.pillows{
+    border-radius: 30px;
+}
+#logos{
+    display: flex;
+    gap: 10%;
+    margin-left: 10%;
+}
+.logo{
+    width: 200px;
+    height: 150px;
+}
+#images{
+    display: flex;
+    gap: 3%;
+    margin: 0 10%;
+}
+.image{
+    width: 400px;
+    height: 600px;
+    border-radius: 30px;
+}
+.image4{
+    margin: 0 10%;
+    height: 600px;
+    width: 1300px;
+}
+.par5{
+    margin: 0 28%;
+    color: rgb(85, 83, 83);
+}
+.par6{
+    margin: 0 30%;
+    color: rgb(85, 83, 83);
+}
+#maps{
+    position: relative;
+}
+.contact{
+    position: absolute;
+    margin: 8% 20%;
+    background-color: white;
+    border-radius: 30px;
+}
+.maps{
+    width: 1500px;
+    height: 600px;
+    margin: 0 10%;
+}
+#bar{
+    background-color:rgb(56, 56, 68) ;
+    display: flex;
+    gap: 15%;
+    padding: 0 20%;
+}
+#bar b{
+    color: rgba(255, 255, 255, 0.829);
+}
+bar span{
+    color: rgba(255, 255, 255, 0.829);
+}
+#par7{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.829);
+}
+#footer{
+    background-color:rgb(56, 56, 68) ;
 }

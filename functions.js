@@ -34,3 +34,25 @@ let employee = [
   });
   employee.forEach((person) => console.log(employee.salary));
  console.log(employee);
+
+ //Write a function that accepts an array of numbers and uses the forEach() method to console.log each number multiplied by 2.
+ function MultiplyNumbers(numbers) {
+    numbers.forEach(function(number) {
+       console.log(number * 2);
+    });
+   }
+   const numbersArray = [1, 2, 3, 4, 5];
+   MultiplyNumbers(numbersArray);
+//Write a function that takes in an array of numbers and consoles the first four items multiplied by 8 and the last two added by 5. Console the array with the new values
+const numbers= [1, 2, 3, 4, 5, 6];
+function Array(numbers) {
+    numbers.forEach((number, index) => {
+       if (index < 4) {
+         numbers[index] = number * 8;
+       } else if (index >= numbers.length - 2) {
+         numbers[index] = number + 5;
+       }
+    });
+    console.log(numbers);
+   }
+   Array(numbers)
